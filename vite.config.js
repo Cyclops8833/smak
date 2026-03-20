@@ -11,7 +11,7 @@ export default defineConfig({
         name: 'Smak',
         short_name: 'Smak',
         description: 'A nutrition field guide for curious kids',
-        theme_color: '#4A6741',
+        theme_color: '#B85C38',
         background_color: '#FAFAF7',
         display: 'standalone',
         icons: [

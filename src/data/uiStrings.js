@@ -1,7 +1,7 @@
 export const uiStrings = {
   en: {
     appTitle: 'Smak',
-    appSubtitle: 'A food field guide for Oscar and Violet',
+    appSubtitle: 'A food field guide for Oscar & Violet',
     searchPlaceholder: 'Search foods...',
     filterAll: 'All',
     filterFavourites: 'Favourites',
@@ -22,7 +22,7 @@ export const uiStrings = {
   },
   pl: {
     appTitle: 'Smak',
-    appSubtitle: 'Przewodnik po jedzeniu dla Oskara i Violet',
+    appSubtitle: 'Przewodnik po jedzeniu dla Oskara i Violi',
     searchPlaceholder: 'Szukaj jedzenia...',
     filterAll: 'Wszystko',
     filterFavourites: 'Ulubione',

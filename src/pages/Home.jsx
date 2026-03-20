@@ -59,40 +59,63 @@ export default function Home() {
   })
 
   return (
-    <div className="min-h-screen bg-surface-base page-enter">
-      {/* Sticky header */}
-      <div className="sticky top-0 z-10 bg-surface-base/95 backdrop-blur-sm pt-4 pb-3 px-4 space-y-4">
-        <div className="flex items-start justify-between">
-          <div>
-            <h1
-              className="font-heading font-bold text-5xl tracking-tight leading-none"
-              style={{
-                background: 'linear-gradient(135deg, var(--moss) 0%, var(--teal) 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                backgroundClip: 'text',
-              }}
-            >
-              {s.appTitle}
-            </h1>
-            <p className="font-body text-sm text-text-tertiary tracking-wide mt-1.5">
-              {s.appSubtitle}
-            </p>
-            <div className="mt-2 h-px w-16 bg-border-default" />
-          </div>
+    <div className="min-h-screen bg-surface-base">
 
-          <div className="flex items-center gap-2 mt-1">
-            <LanguageToggle />
-            <button
-              onClick={toggleTheme}
-              className="w-9 h-9 rounded-full bg-surface-sunken border border-border-default flex items-center justify-center text-text-secondary hover:text-text-primary transition-colors duration-200 active:scale-95"
-              aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-            >
-              {isDark ? <SunIcon /> : <MoonIcon />}
-            </button>
-          </div>
+      {/* Hero header — scrolls away */}
+      <div
+        className="relative px-4 pt-6 pb-5 text-center"
+        style={{
+          background:
+            'radial-gradient(ellipse at 30% 40%, var(--ochre-light) 0%, transparent 55%), ' +
+            'radial-gradient(ellipse at 75% 60%, var(--moss-light) 0%, transparent 50%), ' +
+            'var(--surface-base)',
+        }}
+      >
+        {/* Toggles — absolute top-right */}
+        <div className="absolute top-3 right-4 flex items-center gap-2">
+          <LanguageToggle />
+          <button
+            onClick={toggleTheme}
+            className="w-9 h-9 rounded-full bg-surface-sunken border border-border-default flex items-center justify-center text-text-secondary hover:text-text-primary transition-colors duration-200 active:scale-95"
+            aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+          >
+            {isDark ? <SunIcon /> : <MoonIcon />}
+          </button>
         </div>
 
+        {/* Title */}
+        <h1
+          className="font-heading font-bold text-5xl sm:text-6xl text-terracotta"
+          style={{
+            letterSpacing: '-0.03em',
+            animation: 'heroIn 0.5s ease-out both',
+          }}
+        >
+          {s.appTitle}
+        </h1>
+
+        {/* Decorative diamond */}
+        <div
+          className="flex justify-center my-2.5 text-xs"
+          style={{
+            color: 'var(--border-strong)',
+            animation: 'heroIn 0.5s ease-out 60ms both',
+          }}
+        >
+          ◆
+        </div>
+
+        {/* Subtitle */}
+        <p
+          className="font-body text-sm text-text-secondary"
+          style={{ animation: 'heroIn 0.5s ease-out 100ms both' }}
+        >
+          {s.appSubtitle}
+        </p>
+      </div>
+
+      {/* Sticky search + filter */}
+      <div className="sticky top-0 z-10 bg-surface-base/95 backdrop-blur-sm pt-3 pb-3 px-4 space-y-3">
         <SearchBar
           value={search}
           onChange={e => setSearch(e.target.value)}
@@ -116,6 +139,7 @@ export default function Home() {
           </div>
         )}
       </div>
+
     </div>
   )
 }

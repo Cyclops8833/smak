@@ -5,6 +5,7 @@ import { useLanguage } from '../context/LanguageContext'
 import { uiStrings } from '../data/uiStrings'
 import NutrientBadge from './NutrientBadge'
 import DailyCheckmark from './DailyCheckmark'
+import LanguageToggle from './LanguageToggle'
 
 const CATEGORY_BADGE = {
   Fruit: 'bg-ochre-light text-ochre',
@@ -72,15 +73,18 @@ export default function FoodDetail({ food }) {
 
         {/* Back + header */}
         <FadeSection delay={0}>
-          <Link
-            to="/"
-            className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-text-primary transition-colors duration-150 mb-3"
-          >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-              <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
-            {s.back}
-          </Link>
+          <div className="flex items-center justify-between mb-3">
+            <Link
+              to="/"
+              className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-text-primary transition-colors duration-150"
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              {s.back}
+            </Link>
+            <LanguageToggle />
+          </div>
 
           <div className="flex items-start justify-between gap-3">
             <div>
