@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-base: #FAFAF7;
+  --surface-elevated: #FFFFFF;
+  --surface-sunken: #F2F0EB;
+  --surface-warm: #EDE9E0;
+  --text-primary: #2C2A25;
+  --text-secondary: #6B6860;
+  --text-tertiary: #9C9890;
+  --border-default: #D9D5CC;
+  --border-strong: #B8B3A8;
+  --moss: #4A6741;
+  --moss-light: #E8EDDF;
+  --moss-dark: #344A2E;
+  --ochre: #C4873B;
+  --ochre-light: #F5EDDF;
+  --ochre-dark: #9A6A2B;
+  --terracotta: #B85C38;
+  --terracotta-light: #F5E8E0;
+  --violet: #7B5EA7;
+  --violet-light: #EEEAF5;
+  --violet-dark: #5E4780;
+  --coral: #E07A5F;
+  --coral-light: #FAEEEA;
+  --teal: #2D6A6A;
+  --teal-light: #E5F0F0;
+}
+
+.dark {
+  --surface-base: #1A1917;
+  --surface-elevated: #252320;
+  --surface-sunken: #131210;
+  --surface-warm: #2E2C28;
+  --text-primary: #E8E5DE;
+  --text-secondary: #A09D94;
+  --text-tertiary: #6B6860;
+  --border-default: #3D3A34;
+  --border-strong: #5A5750;
+  --moss: #6B9A5E;
+  --moss-light: #253024;
+  --moss-dark: #87B87A;
+  --ochre: #D9A04E;
+  --ochre-light: #2E2518;
+  --ochre-dark: #E8B56A;
+  --terracotta: #D47A58;
+  --terracotta-light: #2E1F18;
+  --violet: #9B7EC7;
+  --violet-light: #262030;
+  --violet-dark: #B49AD8;
+  --coral: #E8937C;
+  --coral-light: #2E1F1A;
+  --teal: #4A9494;
+  --teal-light: #1A2C2C;
+}
+
+body {
+  background-color: var(--surface-base);
+  color: var(--text-primary);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+/* ── Animations ─────────────────────────────────────────── */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Heart / checkmark pop-bounce */
+@keyframes heartPop {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(1.3); }
+  65%  { transform: scale(0.88); }
+  100% { transform: scale(1); }
+}
+
+/* Green pulse ring when marking as eaten */
+@keyframes eatPulse {
+  0%   { box-shadow: 0 0 0 0 rgba(74, 103, 65, 0.45); }
+  70%  { box-shadow: 0 0 0 10px rgba(74, 103, 65, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(74, 103, 65, 0); }
+}
+
+/* Popover fade-in */
+@keyframes popoverIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.animate-heart-pop {
+  animation: heartPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.animate-eat-pulse {
+  animation: eatPulse 0.5s ease-out forwards;
+}
+
+.page-enter {
+  animation: fadeUp 0.5s ease forwards;
+}
+
+/* Hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
