@@ -72,7 +72,7 @@ export default function Home() {
         }}
       >
         {/* Toggles — absolute top-right */}
-        <div className="absolute top-3 right-4 flex items-center gap-2">
+        <div className="absolute top-3 right-4 flex items-center gap-2 z-10">
           <LanguageToggle />
           <button
             onClick={toggleTheme}
