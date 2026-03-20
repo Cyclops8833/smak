@@ -20,6 +20,7 @@ export default function NutrientBadge({ name, namePl, strength }) {
   const longPressTimer = useRef(null)
   const hoverTimer     = useRef(null)
   const dismissTimer   = useRef(null)
+  const popoverRef     = useRef(null)
 
   const show = () => {
     clearTimeout(dismissTimer.current)
@@ -50,6 +51,21 @@ export default function NutrientBadge({ name, namePl, strength }) {
       document.addEventListener('pointerdown', handler, { once: true })
     }, 0)
     return () => clearTimeout(id)
+  }, [visible])
+
+  // Clamp popover to viewport bounds after it renders
+  useEffect(() => {
+    if (!visible || !popoverRef.current) return
+    const el = popoverRef.current
+    el.style.left = '50%'
+    el.style.transform = 'translateX(-50%)'
+    const rect = el.getBoundingClientRect()
+    const pad = 8
+    if (rect.left < pad) {
+      el.style.transform = `translateX(calc(-50% + ${pad - rect.left}px))`
+    } else if (rect.right > window.innerWidth - pad) {
+      el.style.transform = `translateX(calc(-50% - ${rect.right - (window.innerWidth - pad)}px))`
+    }
   }, [visible])
 
   useEffect(() => {
@@ -92,8 +108,9 @@ export default function NutrientBadge({ name, namePl, strength }) {
 
       {visible && popoverText && (
         <div
+          ref={popoverRef}
           className="absolute z-20 bottom-full bg-surface-elevated border border-border-default rounded-card shadow-lg p-4 max-w-[260px] w-max"
-          style={{ left: '50%', animation: 'popoverIn 0.2s ease forwards' }}
+          style={{ left: '50%', transform: 'translateX(-50%)', animation: 'popoverIn 0.2s ease forwards' }}
         >
           <span
             className="absolute -bottom-[7px] w-3 h-3 bg-surface-elevated border-r border-b border-border-default"
