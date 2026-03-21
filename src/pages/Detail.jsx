@@ -1,11 +1,13 @@
 import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import foods from '../data/foods.json'
+import staticFoods from '../data/foods.json'
+import { useCustomFoods } from '../hooks/useCustomFoods'
 import FoodDetail from '../components/FoodDetail'
 
 export default function Detail() {
   const { id } = useParams()
-  const food = foods.find(f => f.id === id)
+  const { customFoods } = useCustomFoods()
+  const food = staticFoods.find(f => f.id === id) ?? customFoods.find(f => f.id === id)
 
   useEffect(() => {
     window.scrollTo(0, 0)

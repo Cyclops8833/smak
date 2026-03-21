@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import SearchBar from '../components/SearchBar'
 import FilterBar from '../components/FilterBar'
 import FoodCard from '../components/FoodCard'
@@ -7,8 +8,9 @@ import TodayNutrients from '../components/TodayNutrients'
 import { useFavourites } from '../hooks/useFavourites'
 import { useTheme } from '../hooks/useTheme'
 import { useLanguage } from '../context/LanguageContext'
+import { useCustomFoods } from '../hooks/useCustomFoods'
 import { uiStrings } from '../data/uiStrings'
-import foods from '../data/foods.json'
+import staticFoods from '../data/foods.json'
 
 function SunIcon() {
   return (
@@ -39,7 +41,12 @@ export default function Home() {
   const { isFavourite } = useFavourites()
   const { isDark, toggleTheme } = useTheme()
   const { lang } = useLanguage()
+  const { customFoods } = useCustomFoods()
   const s = uiStrings[lang]
+
+  // Custom foods appended after static; static wins on duplicate IDs
+  const staticIds = new Set(staticFoods.map(f => f.id))
+  const foods = [...staticFoods, ...customFoods.filter(f => !staticIds.has(f.id))]
 
   const filtered = foods.filter(food => {
     const q = search.trim().toLowerCase()
@@ -82,6 +89,16 @@ export default function Home() {
           >
             {isDark ? <SunIcon /> : <MoonIcon />}
           </button>
+          <Link
+            to="/admin"
+            className="w-9 h-9 rounded-full bg-surface-sunken border border-border-default flex items-center justify-center text-text-secondary hover:text-text-primary transition-colors duration-200 active:scale-95"
+            aria-label="Admin — add foods"
+          >
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="8" cy="8" r="2.5" stroke="currentColor" strokeWidth="1.4"/>
+              <path d="M8 1v1.5M8 13.5V15M1 8h1.5M13.5 8H15M3.05 3.05l1.06 1.06M11.89 11.89l1.06 1.06M12.95 3.05l-1.06 1.06M4.11 11.89l-1.06 1.06" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
+            </svg>
+          </Link>
         </div>
 
         {/* Title */}
