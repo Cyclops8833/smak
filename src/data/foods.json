@@ -11,10 +11,26 @@
     "servingSize": "one medium apple",
     "servingSizePl": "jedno średnie jabłko",
     "nutrients": [
-      { "name": "Vitamin C",    "namePl": "Witamina C",         "strength": "excellent" },
-      { "name": "Fibre",        "namePl": "Błonnik",            "strength": "very good" },
-      { "name": "Potassium",    "namePl": "Potas",              "strength": "good" },
-      { "name": "Antioxidants", "namePl": "Przeciwutleniacze",  "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "good"
+      },
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "good"
+      }
     ],
     "benefits": "Apples support your immune system with Vitamin C and keep your digestion running smoothly thanks to their natural fibre. The antioxidants also help protect your cells.",
     "benefitsPl": "Jabłka wspierają układ odpornościowy dzięki witaminie C i pomagają trawieniu dzięki naturalnemu błonnikowi. Przeciwutleniacze chronią też twoje komórki.",
@@ -35,10 +51,26 @@
     "servingSize": "one medium banana",
     "servingSizePl": "jeden średni banan",
     "nutrients": [
-      { "name": "Potassium",  "namePl": "Potas",       "strength": "excellent" },
-      { "name": "Vitamin B6", "namePl": "Witamina B6", "strength": "very good" },
-      { "name": "Fibre",      "namePl": "Błonnik",     "strength": "good" },
-      { "name": "Magnesium",  "namePl": "Magnez",      "strength": "good" }
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin B6",
+        "namePl": "Witamina B6",
+        "strength": "very good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      },
+      {
+        "name": "Magnesium",
+        "namePl": "Magnez",
+        "strength": "good"
+      }
     ],
     "benefits": "Bananas give you quick energy and are packed with potassium, which helps your muscles and heart work properly. They're also gentle on your tummy.",
     "benefitsPl": "Banany dają szybką energię i są pełne potasu, który pomaga mięśniom i sercu prawidłowo pracować. Są też delikatne dla brzuszka.",
@@ -59,10 +91,26 @@
     "servingSize": "a handful (about 40 berries)",
     "servingSizePl": "garść (około 40 jagód)",
     "nutrients": [
-      { "name": "Antioxidants", "namePl": "Przeciwutleniacze", "strength": "excellent" },
-      { "name": "Vitamin C",    "namePl": "Witamina C",        "strength": "very good" },
-      { "name": "Vitamin K",    "namePl": "Witamina K",        "strength": "good" },
-      { "name": "Fibre",        "namePl": "Błonnik",           "strength": "good" }
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      }
     ],
     "benefits": "Blueberries are tiny but mighty — they're one of the best foods for protecting your brain and helping you remember things. Their deep blue colour comes from powerful antioxidants.",
     "benefitsPl": "Borówki są małe, ale potężne — to jedno z najlepszych pożywień dla ochrony mózgu i pomagania w zapamiętywaniu. Ich głęboki niebieski kolor pochodzi od silnych przeciwutleniaczy.",
@@ -83,10 +131,26 @@
     "servingSize": "one medium orange",
     "servingSizePl": "jedna średnia pomarańcza",
     "nutrients": [
-      { "name": "Vitamin C", "namePl": "Witamina C",    "strength": "excellent" },
-      { "name": "Folate",    "namePl": "Kwas foliowy",  "strength": "very good" },
-      { "name": "Fibre",     "namePl": "Błonnik",       "strength": "good" },
-      { "name": "Thiamine",  "namePl": "Tiamina",       "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "very good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      },
+      {
+        "name": "Thiamine",
+        "namePl": "Tiamina",
+        "strength": "good"
+      }
     ],
     "benefits": "Oranges are famous for Vitamin C, which helps your body fight off germs and heal cuts faster. They also keep your skin healthy and glowing.",
     "benefitsPl": "Pomarańcze słyną z witaminy C, która pomaga organizmowi zwalczać zarazki i szybciej goić rany. Utrzymują też zdrową i promienną skórę.",
@@ -107,10 +171,26 @@
     "servingSize": "two small kiwi fruits",
     "servingSizePl": "dwa małe kiwi",
     "nutrients": [
-      { "name": "Vitamin C", "namePl": "Witamina C", "strength": "excellent" },
-      { "name": "Vitamin K", "namePl": "Witamina K", "strength": "very good" },
-      { "name": "Potassium", "namePl": "Potas",      "strength": "good" },
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      }
     ],
     "benefits": "Kiwi fruits have even more Vitamin C than oranges! They help your body heal, keep your immune system strong, and the tiny black seeds are full of healthy goodness.",
     "benefitsPl": "Kiwi ma jeszcze więcej witaminy C niż pomarańcze! Pomaga organizmowi się goić, wzmacnia układ odpornościowy, a małe czarne pestki są pełne zdrowych składników.",
@@ -131,10 +211,26 @@
     "servingSize": "a big handful of leaves",
     "servingSizePl": "duża garść liści",
     "nutrients": [
-      { "name": "Iron",      "namePl": "Żelazo",       "strength": "excellent" },
-      { "name": "Vitamin K", "namePl": "Witamina K",   "strength": "excellent" },
-      { "name": "Vitamin A", "namePl": "Witamina A",   "strength": "very good" },
-      { "name": "Folate",    "namePl": "Kwas foliowy", "strength": "very good" }
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "very good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "very good"
+      }
     ],
     "benefits": "Spinach is loaded with iron, which helps carry oxygen around your body so you have energy to run and play. It also keeps your bones strong with Vitamin K.",
     "benefitsPl": "Szpinak jest pełen żelaza, które przenosi tlen po całym ciele, żebyś miał energię do biegania i zabawy. Utrzymuje też mocne kości dzięki witaminie K.",
@@ -155,10 +251,26 @@
     "servingSize": "about five florets",
     "servingSizePl": "około pięć różyczek",
     "nutrients": [
-      { "name": "Vitamin C", "namePl": "Witamina C", "strength": "excellent" },
-      { "name": "Vitamin K", "namePl": "Witamina K", "strength": "excellent" },
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "very good" },
-      { "name": "Iron",      "namePl": "Żelazo",     "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "excellent"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "good"
+      }
     ],
     "benefits": "Broccoli is a superfood that helps your body stay strong and healthy. It's packed with vitamins that support your bones, your immune system, and your digestion all at once.",
     "benefitsPl": "Brokuł to superżywność, która pomaga organizmowi być silnym i zdrowym. Jest pełen witamin wspierających kości, układ odpornościowy i trawienie jednocześnie.",
@@ -179,10 +291,26 @@
     "servingSize": "one medium carrot",
     "servingSizePl": "jedna średnia marchewka",
     "nutrients": [
-      { "name": "Vitamin A", "namePl": "Witamina A", "strength": "excellent" },
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "very good" },
-      { "name": "Potassium", "namePl": "Potas",      "strength": "good" },
-      { "name": "Vitamin K", "namePl": "Witamina K", "strength": "good" }
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "excellent"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "good"
+      },
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "good"
+      }
     ],
     "benefits": "Carrots are amazing for your eyes because they're packed with Vitamin A, which helps you see well — especially in dim light. They also help keep your skin healthy.",
     "benefitsPl": "Marchewki są niesamowite dla oczu, bo są pełne witaminy A, która pomaga dobrze widzieć — szczególnie w słabym świetle. Pomagają też utrzymać zdrową skórę.",
@@ -203,10 +331,26 @@
     "servingSize": "one medium sweet potato",
     "servingSizePl": "jeden średni batat",
     "nutrients": [
-      { "name": "Vitamin A", "namePl": "Witamina A", "strength": "excellent" },
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "very good" },
-      { "name": "Vitamin C", "namePl": "Witamina C", "strength": "very good" },
-      { "name": "Potassium", "namePl": "Potas",      "strength": "good" }
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "excellent"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "good"
+      }
     ],
     "benefits": "Sweet potatoes are nature's multivitamin — their bright orange colour means they're bursting with Vitamin A for healthy eyes and skin. They give you slow-release energy too.",
     "benefitsPl": "Bataty to naturalna multiwitamina — ich jasnopomarańczowy kolor oznacza, że są pełne witaminy A dla zdrowych oczu i skóry. Dają też energię o powolnym uwalnianiu.",
@@ -227,10 +371,26 @@
     "servingSize": "half a medium capsicum",
     "servingSizePl": "połowa średniej papryki",
     "nutrients": [
-      { "name": "Vitamin C", "namePl": "Witamina C",    "strength": "excellent" },
-      { "name": "Vitamin A", "namePl": "Witamina A",    "strength": "very good" },
-      { "name": "Vitamin B6","namePl": "Witamina B6",   "strength": "good" },
-      { "name": "Folate",    "namePl": "Kwas foliowy",  "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin B6",
+        "namePl": "Witamina B6",
+        "strength": "good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "good"
+      }
     ],
     "benefits": "Red capsicums have more Vitamin C than oranges! They help your body fight germs, heal cuts, and keep your skin looking healthy. The bright colour means lots of antioxidants.",
     "benefitsPl": "Czerwona papryka ma więcej witaminy C niż pomarańcze! Pomaga organizmowi zwalczać zarazki, goić rany i utrzymywać zdrową skórę. Jasny kolor oznacza dużo przeciwutleniaczy.",
@@ -251,10 +411,26 @@
     "servingSize": "a piece about the size of your palm",
     "servingSizePl": "kawałek wielkości twojej dłoni",
     "nutrients": [
-      { "name": "Protein",    "namePl": "Białko",       "strength": "excellent" },
-      { "name": "Vitamin B6", "namePl": "Witamina B6",  "strength": "very good" },
-      { "name": "Niacin",     "namePl": "Niacyna",      "strength": "very good" },
-      { "name": "Selenium",   "namePl": "Selen",        "strength": "good" }
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin B6",
+        "namePl": "Witamina B6",
+        "strength": "very good"
+      },
+      {
+        "name": "Niacin",
+        "namePl": "Niacyna",
+        "strength": "very good"
+      },
+      {
+        "name": "Selenium",
+        "namePl": "Selen",
+        "strength": "good"
+      }
     ],
     "benefits": "Chicken is one of the best sources of protein, which your body needs to build strong muscles and repair itself. It's lean, easy to cook, and most kids love it.",
     "benefitsPl": "Kurczak to jedno z najlepszych źródeł białka, którego organizm potrzebuje do budowania silnych mięśni i naprawy. Jest chudy, łatwy do przygotowania i większość dzieci go uwielbia.",
@@ -275,10 +451,26 @@
     "servingSize": "a piece about the size of your palm",
     "servingSizePl": "kawałek wielkości twojej dłoni",
     "nutrients": [
-      { "name": "Omega-3",    "namePl": "Omega-3",      "strength": "excellent" },
-      { "name": "Protein",    "namePl": "Białko",       "strength": "excellent" },
-      { "name": "Vitamin D",  "namePl": "Witamina D",   "strength": "very good" },
-      { "name": "Vitamin B12","namePl": "Witamina B12", "strength": "very good" }
+      {
+        "name": "Omega-3",
+        "namePl": "Omega-3",
+        "strength": "excellent"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin D",
+        "namePl": "Witamina D",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin B12",
+        "namePl": "Witamina B12",
+        "strength": "very good"
+      }
     ],
     "benefits": "Salmon is a brain food superstar! The omega-3 fats help your brain grow and learn, while the protein builds strong muscles. It's also one of the few foods with Vitamin D.",
     "benefitsPl": "Łosoś to gwiazda jedzenia dla mózgu! Tłuszcze omega-3 pomagają mózgowi rosnąć i się uczyć, a białko buduje silne mięśnie. To też jedno z niewielu pożywień z witaminą D.",
@@ -299,10 +491,26 @@
     "servingSize": "one or two eggs",
     "servingSizePl": "jedno lub dwa jajka",
     "nutrients": [
-      { "name": "Protein",    "namePl": "Białko",       "strength": "excellent" },
-      { "name": "Choline",    "namePl": "Cholina",      "strength": "excellent" },
-      { "name": "Vitamin B12","namePl": "Witamina B12", "strength": "very good" },
-      { "name": "Vitamin D",  "namePl": "Witamina D",   "strength": "very good" }
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "excellent"
+      },
+      {
+        "name": "Choline",
+        "namePl": "Cholina",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin B12",
+        "namePl": "Witamina B12",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin D",
+        "namePl": "Witamina D",
+        "strength": "very good"
+      }
     ],
     "benefits": "Eggs are one of nature's most complete foods — they have a bit of almost every nutrient you need. The choline in yolks is especially good for your growing brain.",
     "benefitsPl": "Jajka to jedno z najbardziej kompletnych pożywień w naturze — mają po trochu prawie każdego składnika odżywczego. Cholina w żółtkach jest szczególnie dobra dla rosnącego mózgu.",
@@ -323,10 +531,26 @@
     "servingSize": "a piece about the size of your palm",
     "servingSizePl": "kawałek wielkości twojej dłoni",
     "nutrients": [
-      { "name": "Iron",       "namePl": "Żelazo",       "strength": "excellent" },
-      { "name": "Protein",    "namePl": "Białko",       "strength": "excellent" },
-      { "name": "Zinc",       "namePl": "Cynk",         "strength": "very good" },
-      { "name": "Vitamin B12","namePl": "Witamina B12", "strength": "very good" }
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "excellent"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "excellent"
+      },
+      {
+        "name": "Zinc",
+        "namePl": "Cynk",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin B12",
+        "namePl": "Witamina B12",
+        "strength": "very good"
+      }
     ],
     "benefits": "Beef is packed with iron that your body absorbs really well — iron carries oxygen in your blood and gives you energy. It also has zinc to keep your immune system fighting fit.",
     "benefitsPl": "Wołowina jest pełna żelaza, które organizm bardzo dobrze wchłania — żelazo przenosi tlen we krwi i daje energię. Ma też cynk, który utrzymuje układ odpornościowy w formie.",
@@ -347,10 +571,26 @@
     "servingSize": "half a small tin or a palm-sized piece",
     "servingSizePl": "połowa małej puszki lub kawałek wielkości dłoni",
     "nutrients": [
-      { "name": "Protein",   "namePl": "Białko",     "strength": "excellent" },
-      { "name": "Omega-3",   "namePl": "Omega-3",    "strength": "very good" },
-      { "name": "Vitamin D", "namePl": "Witamina D", "strength": "very good" },
-      { "name": "Selenium",  "namePl": "Selen",      "strength": "good" }
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "excellent"
+      },
+      {
+        "name": "Omega-3",
+        "namePl": "Omega-3",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin D",
+        "namePl": "Witamina D",
+        "strength": "very good"
+      },
+      {
+        "name": "Selenium",
+        "namePl": "Selen",
+        "strength": "good"
+      }
     ],
     "benefits": "Tuna is a lean protein powerhouse that helps build strong muscles and supports your brain with omega-3 fats. Tinned tuna is one of the easiest healthy foods to prepare.",
     "benefitsPl": "Tuńczyk to potęga chudego białka, które pomaga budować silne mięśnie i wspiera mózg tłuszczami omega-3. Tuńczyk z puszki to jedno z najłatwiejszych zdrowych pożywień.",
@@ -371,10 +611,26 @@
     "servingSize": "one glass (250ml)",
     "servingSizePl": "jedna szklanka (250 ml)",
     "nutrients": [
-      { "name": "Calcium",    "namePl": "Wapń",         "strength": "excellent" },
-      { "name": "Vitamin D",  "namePl": "Witamina D",   "strength": "very good" },
-      { "name": "Protein",    "namePl": "Białko",       "strength": "very good" },
-      { "name": "Vitamin B12","namePl": "Witamina B12", "strength": "good" }
+      {
+        "name": "Calcium",
+        "namePl": "Wapń",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin D",
+        "namePl": "Witamina D",
+        "strength": "very good"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin B12",
+        "namePl": "Witamina B12",
+        "strength": "good"
+      }
     ],
     "benefits": "Milk is the classic bone-builder — the calcium and Vitamin D work together to make your bones and teeth strong. The protein helps your muscles grow too.",
     "benefitsPl": "Mleko to klasyczny budowniczy kości — wapń i witamina D współpracują, żeby kości i zęby były mocne. Białko pomaga też rosnąć mięśniom.",
@@ -395,10 +651,26 @@
     "servingSize": "one small tub (about 150g)",
     "servingSizePl": "jeden mały kubeczek (około 150 g)",
     "nutrients": [
-      { "name": "Calcium",    "namePl": "Wapń",         "strength": "excellent" },
-      { "name": "Probiotics", "namePl": "Probiotyki",   "strength": "excellent" },
-      { "name": "Protein",    "namePl": "Białko",       "strength": "very good" },
-      { "name": "Vitamin B12","namePl": "Witamina B12", "strength": "good" }
+      {
+        "name": "Calcium",
+        "namePl": "Wapń",
+        "strength": "excellent"
+      },
+      {
+        "name": "Probiotics",
+        "namePl": "Probiotyki",
+        "strength": "excellent"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin B12",
+        "namePl": "Witamina B12",
+        "strength": "good"
+      }
     ],
     "benefits": "Yoghurt is full of friendly bacteria called probiotics that keep your tummy healthy and help you digest food properly. It's also great for strong bones and teeth.",
     "benefitsPl": "Jogurt jest pełen przyjaznych bakterii zwanych probiotykami, które utrzymują zdrowy brzuszek i pomagają prawidłowo trawić jedzenie. Jest też świetny dla mocnych kości i zębów.",
@@ -419,10 +691,26 @@
     "servingSize": "two thin slices or a thumb-sized piece",
     "servingSizePl": "dwa cienkie plasterki lub kawałek wielkości kciuka",
     "nutrients": [
-      { "name": "Calcium", "namePl": "Wapń",      "strength": "excellent" },
-      { "name": "Protein", "namePl": "Białko",    "strength": "very good" },
-      { "name": "Vitamin A","namePl": "Witamina A","strength": "good" },
-      { "name": "Zinc",    "namePl": "Cynk",      "strength": "good" }
+      {
+        "name": "Calcium",
+        "namePl": "Wapń",
+        "strength": "excellent"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "good"
+      },
+      {
+        "name": "Zinc",
+        "namePl": "Cynk",
+        "strength": "good"
+      }
     ],
     "benefits": "Cheese is one of the richest sources of calcium for building strong bones and teeth. It's also full of protein to help your body grow and repair itself.",
     "benefitsPl": "Ser to jedno z najbogatszych źródeł wapnia do budowania mocnych kości i zębów. Jest też pełen białka, które pomaga organizmowi rosnąć i się naprawiać.",
@@ -443,10 +731,26 @@
     "servingSize": "about half a cup (dry)",
     "servingSizePl": "około pół szklanki (na sucho)",
     "nutrients": [
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "excellent" },
-      { "name": "Iron",      "namePl": "Żelazo",     "strength": "very good" },
-      { "name": "Magnesium", "namePl": "Magnez",     "strength": "very good" },
-      { "name": "Vitamin B1","namePl": "Witamina B1","strength": "good" }
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "excellent"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "very good"
+      },
+      {
+        "name": "Magnesium",
+        "namePl": "Magnez",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin B1",
+        "namePl": "Witamina B1",
+        "strength": "good"
+      }
     ],
     "benefits": "Oats are a slow-release energy food that keeps you full and focused all morning. Their special fibre called beta-glucan also helps keep your heart healthy.",
     "benefitsPl": "Owsianka to pożywienie o powolnym uwalnianiu energii, które utrzymuje sytość i koncentrację przez cały ranek. Specjalny błonnik beta-glukan pomaga też utrzymać zdrowe serce.",
@@ -467,10 +771,26 @@
     "servingSize": "about half a cup (cooked)",
     "servingSizePl": "około pół szklanki (ugotowanego)",
     "nutrients": [
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "very good" },
-      { "name": "Magnesium", "namePl": "Magnez",     "strength": "very good" },
-      { "name": "Vitamin B6","namePl": "Witamina B6","strength": "good" },
-      { "name": "Selenium",  "namePl": "Selen",      "strength": "good" }
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Magnesium",
+        "namePl": "Magnez",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin B6",
+        "namePl": "Witamina B6",
+        "strength": "good"
+      },
+      {
+        "name": "Selenium",
+        "namePl": "Selen",
+        "strength": "good"
+      }
     ],
     "benefits": "Brown rice still has its outer layer, which is where most of the nutrients live. It gives you steady energy and lots of minerals that help your body work properly.",
     "benefitsPl": "Brązowy ryż wciąż ma swoją zewnętrzną warstwę, w której mieszka większość składników odżywczych. Daje stałą energię i dużo minerałów pomagających organizmowi prawidłowo działać.",
@@ -491,10 +811,26 @@
     "servingSize": "about half a cup (cooked)",
     "servingSizePl": "około pół szklanki (ugotowanej)",
     "nutrients": [
-      { "name": "Iron",      "namePl": "Żelazo",       "strength": "excellent" },
-      { "name": "Fibre",     "namePl": "Błonnik",      "strength": "excellent" },
-      { "name": "Protein",   "namePl": "Białko",       "strength": "very good" },
-      { "name": "Folate",    "namePl": "Kwas foliowy", "strength": "very good" }
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "excellent"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "excellent"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "very good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "very good"
+      }
     ],
     "benefits": "Lentils are tiny powerhouses packed with iron, protein, and fibre. They give you lasting energy and help your body build and repair itself — all from a little legume.",
     "benefitsPl": "Soczewica to małe potęgi pełne żelaza, białka i błonnika. Dają długotrwałą energię i pomagają organizmowi się budować i naprawiać — a wszystko z małej rośliny strączkowej.",
@@ -515,10 +851,26 @@
     "servingSize": "about half a cup (cooked)",
     "servingSizePl": "około pół szklanki (ugotowanej)",
     "nutrients": [
-      { "name": "Fibre",   "namePl": "Błonnik",      "strength": "excellent" },
-      { "name": "Protein", "namePl": "Białko",       "strength": "very good" },
-      { "name": "Iron",    "namePl": "Żelazo",       "strength": "very good" },
-      { "name": "Folate",  "namePl": "Kwas foliowy", "strength": "good" }
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "excellent"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "very good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "good"
+      }
     ],
     "benefits": "Chickpeas (also known as garbanzo beans) are full of protein and fibre that keep you feeling satisfied. They're great for your digestion and give you steady energy.",
     "benefitsPl": "Ciecierzyca jest pełna białka i błonnika, które utrzymują uczucie sytości. Jest świetna dla trawienia i daje stałą energię.",
@@ -539,10 +891,26 @@
     "servingSize": "a small handful (about 10 almonds)",
     "servingSizePl": "mała garść (około 10 migdałów)",
     "nutrients": [
-      { "name": "Vitamin E",    "namePl": "Witamina E",        "strength": "excellent" },
-      { "name": "Healthy Fats", "namePl": "Zdrowe tłuszcze",   "strength": "excellent" },
-      { "name": "Magnesium",    "namePl": "Magnez",            "strength": "very good" },
-      { "name": "Protein",      "namePl": "Białko",            "strength": "good" }
+      {
+        "name": "Vitamin E",
+        "namePl": "Witamina E",
+        "strength": "excellent"
+      },
+      {
+        "name": "Healthy Fats",
+        "namePl": "Zdrowe tłuszcze",
+        "strength": "excellent"
+      },
+      {
+        "name": "Magnesium",
+        "namePl": "Magnez",
+        "strength": "very good"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "good"
+      }
     ],
     "benefits": "Almonds are full of healthy fats that are great for your brain, plus Vitamin E which protects your cells. They're a perfect snack for keeping your energy steady between meals.",
     "benefitsPl": "Migdały są pełne zdrowych tłuszczów świetnych dla mózgu i witaminy E, która chroni komórki. To idealna przekąska utrzymująca stały poziom energii między posiłkami.",
@@ -563,10 +931,26 @@
     "servingSize": "half a medium avocado",
     "servingSizePl": "połowa średniego awokado",
     "nutrients": [
-      { "name": "Healthy Fats", "namePl": "Zdrowe tłuszcze", "strength": "excellent" },
-      { "name": "Fibre",        "namePl": "Błonnik",         "strength": "very good" },
-      { "name": "Potassium",    "namePl": "Potas",           "strength": "very good" },
-      { "name": "Vitamin E",    "namePl": "Witamina E",      "strength": "good" }
+      {
+        "name": "Healthy Fats",
+        "namePl": "Zdrowe tłuszcze",
+        "strength": "excellent"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin E",
+        "namePl": "Witamina E",
+        "strength": "good"
+      }
     ],
     "benefits": "Avocados are packed with healthy fats that your brain needs to grow and learn. They're also full of fibre and have more potassium than bananas!",
     "benefitsPl": "Awokado jest pełne zdrowych tłuszczów, których mózg potrzebuje do rozwoju i nauki. Jest też pełne błonnika i ma więcej potasu niż banany!",
@@ -582,15 +966,31 @@
     "pronunciation": "HLEB",
     "category": "Grains & Legumes",
     "categoryPl": "Zboża i Rośliny strączkowe",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1634598603904-0a7516ec64b2?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "one slice of wholegrain bread",
     "servingSizePl": "jedna kromka chleba pełnoziarnistego",
     "nutrients": [
-      { "name": "Fibre",     "namePl": "Błonnik",      "strength": "very good" },
-      { "name": "Iron",      "namePl": "Żelazo",       "strength": "good" },
-      { "name": "Vitamin B1","namePl": "Witamina B1",  "strength": "good" },
-      { "name": "Magnesium", "namePl": "Magnez",       "strength": "good" }
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "good"
+      },
+      {
+        "name": "Vitamin B1",
+        "namePl": "Witamina B1",
+        "strength": "good"
+      },
+      {
+        "name": "Magnesium",
+        "namePl": "Magnez",
+        "strength": "good"
+      }
     ],
     "benefits": "Wholegrain bread gives you slow-release energy to keep you going through the day. The fibre keeps your digestion healthy and the B vitamins help your body turn food into fuel.",
     "benefitsPl": "Chleb pełnoziarnisty daje energię o powolnym uwalnianiu, która utrzymuje się przez cały dzień. Błonnik wspiera trawienie, a witaminy z grupy B pomagają organizmowi zamieniać jedzenie w paliwo.",
@@ -606,15 +1006,31 @@
     "pronunciation": "HOO-moos",
     "category": "Other",
     "categoryPl": "Inne",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1673960854897-749f9d9ebafc?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "about two big spoonfuls",
     "servingSizePl": "około dwie duże łyżki",
     "nutrients": [
-      { "name": "Protein",      "namePl": "Białko",          "strength": "very good" },
-      { "name": "Fibre",        "namePl": "Błonnik",         "strength": "very good" },
-      { "name": "Iron",         "namePl": "Żelazo",          "strength": "good" },
-      { "name": "Healthy Fats", "namePl": "Zdrowe tłuszcze", "strength": "good" }
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "very good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "good"
+      },
+      {
+        "name": "Healthy Fats",
+        "namePl": "Zdrowe tłuszcze",
+        "strength": "good"
+      }
     ],
     "benefits": "Hummus is made from chickpeas and tahini, giving you a great mix of protein, fibre, and healthy fats. It keeps you feeling full and gives your muscles the building blocks they need.",
     "benefitsPl": "Hummus jest robiony z ciecierzycy i tahini, co daje świetną mieszankę białka, błonnika i zdrowych tłuszczów. Utrzymuje uczucie sytości i daje mięśniom potrzebne budulce.",
@@ -630,15 +1046,31 @@
     "pronunciation": "oh-GOO-rek",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1589621316382-008455b857cd?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "half a medium cucumber",
     "servingSizePl": "połowa średniego ogórka",
     "nutrients": [
-      { "name": "Vitamin K", "namePl": "Witamina K", "strength": "very good" },
-      { "name": "Potassium", "namePl": "Potas",      "strength": "good" },
-      { "name": "Vitamin C", "namePl": "Witamina C", "strength": "good" },
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "good" }
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "good"
+      },
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      }
     ],
     "benefits": "Cucumbers are mostly water, which makes them super refreshing and great for keeping you hydrated. They also have Vitamin K for strong bones and are a perfect crunchy snack.",
     "benefitsPl": "Ogórki składają się głównie z wody, co czyni je bardzo orzeźwiającymi i świetnymi do nawodnienia. Mają też witaminę K dla mocnych kości i są idealną chrupiącą przekąską.",
@@ -654,15 +1086,31 @@
     "pronunciation": "NO-ree",
     "category": "Other",
     "categoryPl": "Inne",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1587029623864-c0c4d22edf6c?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "two to three sheets",
     "servingSizePl": "dwa do trzech arkuszy",
     "nutrients": [
-      { "name": "Vitamin A", "namePl": "Witamina A", "strength": "excellent" },
-      { "name": "Vitamin C", "namePl": "Witamina C", "strength": "very good" },
-      { "name": "Iron",      "namePl": "Żelazo",     "strength": "very good" },
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "good" }
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "very good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      }
     ],
     "benefits": "Nori is the seaweed used to wrap sushi, and it's packed with vitamins and minerals from the ocean. It's especially rich in Vitamin A for healthy eyes and iron for energy.",
     "benefitsPl": "Nori to wodorosty używane do zawijania sushi, pełne witamin i minerałów z oceanu. Są szczególnie bogate w witaminę A dla zdrowych oczu i żelazo na energię.",
@@ -678,15 +1126,31 @@
     "pronunciation": "troos-KAF-kee",
     "category": "Fruit",
     "categoryPl": "Owoce",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1549007953-2f2dc0b24019?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "about eight medium strawberries",
     "servingSizePl": "około osiem średnich truskawek",
     "nutrients": [
-      { "name": "Vitamin C",     "namePl": "Witamina C",        "strength": "excellent" },
-      { "name": "Antioxidants",  "namePl": "Przeciwutleniacze", "strength": "excellent" },
-      { "name": "Fibre",         "namePl": "Błonnik",           "strength": "good" },
-      { "name": "Folate",        "namePl": "Kwas foliowy",      "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "excellent"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "good"
+      }
     ],
     "benefits": "Strawberries are bursting with Vitamin C — just eight of them give you more than a full day's worth! Their bright red colour comes from powerful antioxidants that protect your cells.",
     "benefitsPl": "Truskawki są pełne witaminy C — zaledwie osiem sztuk daje więcej niż dzienną dawkę! Ich jasny czerwony kolor pochodzi od silnych przeciwutleniaczy chroniących komórki.",
@@ -702,15 +1166,31 @@
     "pronunciation": "mah-LEE-nee",
     "category": "Fruit",
     "categoryPl": "Owoce",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1577069861033-55d04cec4ef5?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "a handful (about 20 raspberries)",
     "servingSizePl": "garść (około 20 malin)",
     "nutrients": [
-      { "name": "Fibre",        "namePl": "Błonnik",           "strength": "excellent" },
-      { "name": "Vitamin C",    "namePl": "Witamina C",        "strength": "excellent" },
-      { "name": "Antioxidants", "namePl": "Przeciwutleniacze", "strength": "very good" },
-      { "name": "Vitamin K",    "namePl": "Witamina K",        "strength": "good" }
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "very good"
+      },
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "good"
+      }
     ],
     "benefits": "Raspberries have more fibre than almost any other fruit, which keeps your tummy happy and healthy. They're also loaded with Vitamin C and antioxidants to keep your body strong.",
     "benefitsPl": "Maliny mają więcej błonnika niż prawie każdy inny owoc, co utrzymuje brzuszek szczęśliwy i zdrowy. Są też pełne witaminy C i przeciwutleniaczy, które utrzymują organizm w sile.",
@@ -726,15 +1206,31 @@
     "pronunciation": "tsoo-KEE-nyah",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1691480291894-75229c2bfd44?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "half a medium zucchini",
     "servingSizePl": "połowa średniej cukinii",
     "nutrients": [
-      { "name": "Vitamin C", "namePl": "Witamina C", "strength": "very good" },
-      { "name": "Potassium", "namePl": "Potas",      "strength": "good" },
-      { "name": "Vitamin A", "namePl": "Witamina A", "strength": "good" },
-      { "name": "Fibre",     "namePl": "Błonnik",    "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "good"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      }
     ],
     "benefits": "Zucchini is light and easy to digest, making it a gentle vegetable for growing tummies. It's full of water to keep you hydrated and has Vitamin C to help fight off germs.",
     "benefitsPl": "Cukinia jest lekka i łatwa do strawienia, co czyni ją delikatnym warzywem dla rosnących brzuszków. Jest pełna wody dla nawodnienia i ma witaminę C do zwalczania zarazków.",
@@ -750,15 +1246,31 @@
     "pronunciation": "kah-lah-FYOR",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1566842600175-97dca489844f?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "about five florets",
     "servingSizePl": "około pięć różyczek",
     "nutrients": [
-      { "name": "Vitamin C", "namePl": "Witamina C",   "strength": "excellent" },
-      { "name": "Vitamin K", "namePl": "Witamina K",   "strength": "very good" },
-      { "name": "Fibre",     "namePl": "Błonnik",      "strength": "very good" },
-      { "name": "Folate",    "namePl": "Kwas foliowy", "strength": "good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "very good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "very good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "good"
+      }
     ],
     "benefits": "Cauliflower is broccoli's white cousin and is just as nutritious! It's packed with Vitamin C and K, and its mild flavour makes it one of the most versatile vegetables around.",
     "benefitsPl": "Kalafior to biały kuzyn brokuła i jest równie pożywny! Jest pełen witaminy C i K, a jego łagodny smak czyni go jednym z najbardziej wszechstronnych warzyw.",
@@ -774,15 +1286,31 @@
     "pronunciation": "fah-SO-lah",
     "category": "Grains & Legumes",
     "categoryPl": "Zboża i Rośliny strączkowe",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1560252030-9fc63cb78dac?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "about half a cup (cooked)",
     "servingSizePl": "około pół szklanki (ugotowanej)",
     "nutrients": [
-      { "name": "Fibre",   "namePl": "Błonnik",      "strength": "excellent" },
-      { "name": "Protein", "namePl": "Białko",        "strength": "very good" },
-      { "name": "Iron",    "namePl": "Żelazo",        "strength": "very good" },
-      { "name": "Folate",  "namePl": "Kwas foliowy",  "strength": "good" }
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "excellent"
+      },
+      {
+        "name": "Protein",
+        "namePl": "Białko",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "very good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "good"
+      }
     ],
     "benefits": "Beans are little packages of energy — they're full of protein and fibre that keep you feeling satisfied for hours. They're also a great source of iron for carrying oxygen around your body.",
     "benefitsPl": "Fasola to małe paczki energii — jest pełna białka i błonnika, które utrzymują uczucie sytości przez godziny. Jest też świetnym źródłem żelaza do przenoszenia tlenu po całym ciele.",
@@ -798,15 +1326,31 @@
     "pronunciation": "sah-WAH-tah",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1515356956468-873dd257f911?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "a few large leaves",
     "servingSizePl": "kilka dużych liści",
     "nutrients": [
-      { "name": "Vitamin K", "namePl": "Witamina K",   "strength": "excellent" },
-      { "name": "Vitamin A", "namePl": "Witamina A",   "strength": "very good" },
-      { "name": "Folate",    "namePl": "Kwas foliowy", "strength": "good" },
-      { "name": "Fibre",     "namePl": "Błonnik",      "strength": "good" }
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "very good"
+      },
+      {
+        "name": "Folate",
+        "namePl": "Kwas foliowy",
+        "strength": "good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      }
     ],
     "benefits": "Lettuce is light, crunchy, and full of water to keep you hydrated. The darker the leaves, the more vitamins they have — especially Vitamin K for strong bones and Vitamin A for healthy eyes.",
     "benefitsPl": "Sałata jest lekka, chrupiąca i pełna wody dla nawodnienia. Im ciemniejsze liście, tym więcej witamin — szczególnie witaminy K dla mocnych kości i witaminy A dla zdrowych oczu.",
@@ -822,15 +1366,31 @@
     "pronunciation": "CHOS-nek",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1636210589096-a53d5dacd702?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "one to two cloves",
     "servingSizePl": "jeden do dwóch ząbków",
     "nutrients": [
-      { "name": "Vitamin C",    "namePl": "Witamina C",        "strength": "good" },
-      { "name": "Vitamin B6",   "namePl": "Witamina B6",       "strength": "very good" },
-      { "name": "Selenium",     "namePl": "Selen",             "strength": "good" },
-      { "name": "Antioxidants", "namePl": "Przeciwutleniacze", "strength": "very good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "good"
+      },
+      {
+        "name": "Vitamin B6",
+        "namePl": "Witamina B6",
+        "strength": "very good"
+      },
+      {
+        "name": "Selenium",
+        "namePl": "Selen",
+        "strength": "good"
+      },
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "very good"
+      }
     ],
     "benefits": "Garlic is nature's medicine — it's been used for thousands of years to fight off sickness. It's packed with antioxidants and a special compound called allicin that helps your immune system stay strong.",
     "benefitsPl": "Czosnek to naturalne lekarstwo — jest używany od tysięcy lat do zwalczania chorób. Jest pełen przeciwutleniaczy i specjalnego związku zwanego allicyną, który pomaga układowi odpornościowemu być silnym.",
@@ -846,15 +1406,31 @@
     "pronunciation": "tse-BOO-lah",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1587049633312-d628ae50a8ae?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "half a medium onion",
     "servingSizePl": "połowa średniej cebuli",
     "nutrients": [
-      { "name": "Vitamin C",    "namePl": "Witamina C",        "strength": "very good" },
-      { "name": "Fibre",        "namePl": "Błonnik",           "strength": "good" },
-      { "name": "Vitamin B6",   "namePl": "Witamina B6",       "strength": "good" },
-      { "name": "Antioxidants", "namePl": "Przeciwutleniacze", "strength": "very good" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "very good"
+      },
+      {
+        "name": "Fibre",
+        "namePl": "Błonnik",
+        "strength": "good"
+      },
+      {
+        "name": "Vitamin B6",
+        "namePl": "Witamina B6",
+        "strength": "good"
+      },
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "very good"
+      }
     ],
     "benefits": "Onions add flavour to everything and are full of antioxidants that help protect your cells. They also have Vitamin C to help fight off colds and keep your skin healthy.",
     "benefitsPl": "Cebula dodaje smaku wszystkiemu i jest pełna przeciwutleniaczy chroniących komórki. Ma też witaminę C pomagającą zwalczać przeziębienia i utrzymywać zdrową skórę.",
@@ -870,15 +1446,31 @@
     "pronunciation": "pyeh-TROOSH-kah",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1590759485418-90509afec818?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "a small handful of leaves",
     "servingSizePl": "mała garść liści",
     "nutrients": [
-      { "name": "Vitamin K", "namePl": "Witamina K", "strength": "excellent" },
-      { "name": "Vitamin C", "namePl": "Witamina C", "strength": "excellent" },
-      { "name": "Vitamin A", "namePl": "Witamina A", "strength": "very good" },
-      { "name": "Iron",      "namePl": "Żelazo",     "strength": "good" }
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "good"
+      }
     ],
     "benefits": "Parsley is much more than a garnish — it's one of the most nutrient-dense herbs you can eat. A small handful gives you a huge dose of Vitamin K for strong bones and Vitamin C for immunity.",
     "benefitsPl": "Pietruszka to znacznie więcej niż dekoracja — to jedno z najbardziej odżywczych ziół. Mała garść daje ogromną dawkę witaminy K dla mocnych kości i witaminy C dla odporności.",
@@ -894,15 +1486,31 @@
     "pronunciation": "bah-ZIL-yah",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1527964105263-1ac6265a569f?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "a few fresh leaves",
     "servingSizePl": "kilka świeżych liści",
     "nutrients": [
-      { "name": "Vitamin K",    "namePl": "Witamina K",        "strength": "excellent" },
-      { "name": "Vitamin A",    "namePl": "Witamina A",        "strength": "good" },
-      { "name": "Antioxidants", "namePl": "Przeciwutleniacze", "strength": "very good" },
-      { "name": "Iron",         "namePl": "Żelazo",            "strength": "good" }
+      {
+        "name": "Vitamin K",
+        "namePl": "Witamina K",
+        "strength": "excellent"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "good"
+      },
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "very good"
+      },
+      {
+        "name": "Iron",
+        "namePl": "Żelazo",
+        "strength": "good"
+      }
     ],
     "benefits": "Basil smells amazing and is full of antioxidants that help protect your body. Even a few leaves give you Vitamin K for healthy bones, and the essential oils have natural germ-fighting powers.",
     "benefitsPl": "Bazylia pachnie niesamowicie i jest pełna przeciwutleniaczy chroniących organizm. Nawet kilka liści daje witaminę K dla zdrowych kości, a olejki eteryczne mają naturalne właściwości antybakteryjne.",
@@ -918,15 +1526,31 @@
     "pronunciation": "po-mee-DO-ree",
     "category": "Vegetable",
     "categoryPl": "Warzywa",
-    "image": "https://images.unsplash.com/photo-PLACEHOLDER?w=600",
+    "image": "https://images.unsplash.com/photo-1524593166156-312f362cada0?w=600",
     "imageCredit": "Photographer on Unsplash",
     "servingSize": "one medium tomato",
     "servingSizePl": "jeden średni pomidor",
     "nutrients": [
-      { "name": "Vitamin C",    "namePl": "Witamina C",        "strength": "very good" },
-      { "name": "Potassium",    "namePl": "Potas",             "strength": "good" },
-      { "name": "Vitamin A",    "namePl": "Witamina A",        "strength": "good" },
-      { "name": "Antioxidants", "namePl": "Przeciwutleniacze", "strength": "excellent" }
+      {
+        "name": "Vitamin C",
+        "namePl": "Witamina C",
+        "strength": "very good"
+      },
+      {
+        "name": "Potassium",
+        "namePl": "Potas",
+        "strength": "good"
+      },
+      {
+        "name": "Vitamin A",
+        "namePl": "Witamina A",
+        "strength": "good"
+      },
+      {
+        "name": "Antioxidants",
+        "namePl": "Przeciwutleniacze",
+        "strength": "excellent"
+      }
     ],
     "benefits": "Tomatoes get their red colour from a powerful antioxidant called lycopene, which helps protect your cells. They're also full of Vitamin C for fighting germs and potassium for healthy muscles.",
     "benefitsPl": "Pomidory zawdzięczają swój czerwony kolor silnemu przeciwutleniaczowi o nazwie likopen, który chroni komórki. Są też pełne witaminy C do zwalczania zarazków i potasu dla zdrowych mięśni.",
