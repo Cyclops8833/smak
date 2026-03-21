@@ -21,6 +21,8 @@ export default function NutrientBadge({ name, namePl, strength }) {
   const hoverTimer     = useRef(null)
   const dismissTimer   = useRef(null)
   const popoverRef     = useRef(null)
+  const wrapperRef     = useRef(null)
+  const caretRef       = useRef(null)
 
   const show = () => {
     clearTimeout(dismissTimer.current)
@@ -53,18 +55,23 @@ export default function NutrientBadge({ name, namePl, strength }) {
     return () => clearTimeout(id)
   }, [visible])
 
-  // Clamp popover to viewport bounds after it renders
+  // Clamp popover to viewport bounds after it renders.
+  // Uses `left` px (not transform) so the CSS animation can't override it.
   useEffect(() => {
-    if (!visible || !popoverRef.current) return
+    if (!visible || !popoverRef.current || !wrapperRef.current) return
     const el = popoverRef.current
-    el.style.left = '50%'
-    el.style.transform = 'translateX(-50%)'
-    const rect = el.getBoundingClientRect()
+    const wrapperRect = wrapperRef.current.getBoundingClientRect()
+    const popoverWidth = el.offsetWidth
     const pad = 8
-    if (rect.left < pad) {
-      el.style.transform = `translateX(calc(-50% + ${pad - rect.left}px))`
-    } else if (rect.right > window.innerWidth - pad) {
-      el.style.transform = `translateX(calc(-50% - ${rect.right - (window.innerWidth - pad)}px))`
+    // Ideal: centre above the badge
+    const idealViewportLeft = wrapperRect.left + (wrapperRect.width - popoverWidth) / 2
+    const clampedViewportLeft = Math.max(pad, Math.min(idealViewportLeft, window.innerWidth - popoverWidth - pad))
+    const localLeft = clampedViewportLeft - wrapperRect.left
+    el.style.left = localLeft + 'px'
+    // Point the caret at the badge centre
+    if (caretRef.current) {
+      const badgeCentreLocal = wrapperRect.width / 2
+      caretRef.current.style.left = (badgeCentreLocal - localLeft) + 'px'
     }
   }, [visible])
 
@@ -89,7 +96,7 @@ export default function NutrientBadge({ name, namePl, strength }) {
   const dots = DOTS[strength] ?? DOTS.good
 
   return (
-    <div className="relative inline-flex">
+    <div className="relative inline-flex" ref={wrapperRef}>
       <span
         className={`
           inline-flex items-center gap-2 px-4 py-2 rounded-xl text-base font-medium
@@ -110,11 +117,12 @@ export default function NutrientBadge({ name, namePl, strength }) {
         <div
           ref={popoverRef}
           className="absolute z-20 bottom-full bg-surface-elevated border border-border-default rounded-card shadow-lg p-4 max-w-[260px] w-max"
-          style={{ left: '50%', transform: 'translateX(-50%)', animation: 'popoverIn 0.2s ease forwards' }}
+          style={{ left: 0, animation: 'popoverIn 0.2s ease forwards' }}
         >
           <span
+            ref={caretRef}
             className="absolute -bottom-[7px] w-3 h-3 bg-surface-elevated border-r border-b border-border-default"
-            style={{ left: '50%', transform: 'translateX(-50%) rotate(45deg)' }}
+            style={{ transform: 'translateX(-50%) rotate(45deg)' }}
           />
           <p className="font-heading font-semibold text-base text-text-primary">{displayName}</p>
           <p className="font-body text-sm text-text-secondary mt-1 leading-relaxed">{popoverText}</p>
