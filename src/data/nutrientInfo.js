@@ -95,4 +95,8 @@ export const NUTRIENT_INFO = {
     en: 'Good fats that feed your brain and give you long-lasting energy.',
     pl: 'Dobre tłuszcze, które karmią mózg i dają długotrwałą energię.'
   },
+  'Selenium': {
+    en: 'A powerful mineral that helps your immune system fight off germs and keeps your thyroid working properly.',
+    pl: 'Silny minerał, który pomaga układowi odpornościowemu zwalczać zarazki i utrzymuje prawidłową pracę tarczycy.'
+  },
 }
