@@ -241,6 +241,19 @@ export default function Admin() {
               placeholder="https://images.unsplash.com/photo-..."
               className="w-full font-body text-base bg-surface-elevated border border-border-default rounded-xl px-4 py-3 text-text-primary placeholder:text-text-tertiary focus:outline-none focus:border-moss transition-colors duration-150"
             />
+            <div className="flex items-center gap-2 mt-2 flex-wrap">
+              <a
+                href="https://unsplash.com/s/photos/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-body text-sm font-medium text-teal hover:underline"
+              >
+                {lang === 'pl' ? 'Znajdź zdjęcie na Unsplash →' : 'Find an image on Unsplash →'}
+              </a>
+              <span className="font-body text-xs text-text-tertiary">
+                {lang === 'pl' ? 'Kliknij prawym → Kopiuj adres obrazu' : 'Right-click the photo → Copy image address'}
+              </span>
+            </div>
             {imageUrl && (
               <div className="mt-2 rounded-card overflow-hidden aspect-video border border-border-default">
                 <img
