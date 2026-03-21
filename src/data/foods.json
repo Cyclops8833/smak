@@ -34,8 +34,8 @@
     ],
     "benefits": "Apples support your immune system with Vitamin C and keep your digestion running smoothly thanks to their natural fibre. The antioxidants also help protect your cells.",
     "benefitsPl": "Jabłka wspierają układ odpornościowy dzięki witaminie C i pomagają trawieniu dzięki naturalnemu błonnikowi. Przeciwutleniacze chronią też twoje komórki.",
-    "pairsWith": "Eat with peanut butter — the healthy fats help your body absorb more of the nutrients.",
-    "pairsWithPl": "Jedz z masłem orzechowym — zdrowe tłuszcze pomagają organizmowi wchłaniać więcej składników odżywczych.",
+    "pairsWith": "Eat with peanut butter — the good fats help your body absorb more of the nutrients.",
+    "pairsWithPl": "Jedz z masłem orzechowym — dobre tłuszcze pomagają organizmowi wchłaniać więcej składników odżywczych.",
     "funFact": "An apple floats in water because 25% of its volume is air!",
     "funFactPl": "Jabłko pływa po wodzie, bo 25% jego objętości to powietrze!"
   },
@@ -272,7 +272,7 @@
         "strength": "good"
       }
     ],
-    "benefits": "Broccoli is a superfood that helps your body stay strong and healthy. It's packed with vitamins that support your bones, your immune system, and your digestion all at once.",
+    "benefits": "Broccoli is a powerhouse that helps your body stay strong. It's packed with vitamins that support your bones, your immune system, and your digestion all at once.",
     "benefitsPl": "Brokuł to superżywność, która pomaga organizmowi być silnym i zdrowym. Jest pełen witamin wspierających kości, układ odpornościowy i trawienie jednocześnie.",
     "pairsWith": "Roast with a drizzle of olive oil and a squeeze of lemon — the fat helps your body absorb the vitamins.",
     "pairsWithPl": "Upiecz z odrobiną oliwy i sokiem z cytryny — tłuszcz pomaga organizmowi wchłaniać witaminy.",
@@ -314,8 +314,8 @@
     ],
     "benefits": "Carrots are amazing for your eyes because they're packed with Vitamin A, which helps you see well — especially in dim light. They also help keep your skin healthy.",
     "benefitsPl": "Marchewki są niesamowite dla oczu, bo są pełne witaminy A, która pomaga dobrze widzieć — szczególnie w słabym świetle. Pomagają też utrzymać zdrową skórę.",
-    "pairsWith": "Dip in hummus — the healthy fats from chickpeas help your body use the Vitamin A.",
-    "pairsWithPl": "Maczaj w hummusie — zdrowe tłuszcze z ciecierzycy pomagają organizmowi wykorzystać witaminę A.",
+    "pairsWith": "Dip in hummus — the good fats from chickpeas help your body use the Vitamin A.",
+    "pairsWithPl": "Maczaj w hummusie — dobre tłuszcze z ciecierzycy pomagają organizmowi wykorzystać witaminę A.",
     "funFact": "Carrots were originally purple! Orange carrots were bred in the Netherlands in the 1600s.",
     "funFactPl": "Marchewki były pierwotnie fioletowe! Pomarańczowe wyhodowano w Holandii w XVII wieku."
   },
@@ -592,7 +592,7 @@
         "strength": "good"
       }
     ],
-    "benefits": "Tuna is a lean protein powerhouse that helps build strong muscles and supports your brain with omega-3 fats. Tinned tuna is one of the easiest healthy foods to prepare.",
+    "benefits": "Tuna is a lean protein powerhouse that helps build strong muscles and supports your brain with omega-3 fats. Tinned tuna is one of the easiest foods to prepare.",
     "benefitsPl": "Tuńczyk to potęga chudego białka, które pomaga budować silne mięśnie i wspiera mózg tłuszczami omega-3. Tuńczyk z puszki to jedno z najłatwiejszych zdrowych pożywień.",
     "pairsWith": "Mix with avocado instead of mayo for a healthier sandwich filling packed with good fats.",
     "pairsWithPl": "Wymieszaj z awokado zamiast majonezu — zdrowsza kanapka pełna dobrych tłuszczów.",
@@ -897,8 +897,8 @@
         "strength": "excellent"
       },
       {
-        "name": "Healthy Fats",
-        "namePl": "Zdrowe tłuszcze",
+        "name": "Good Fats",
+        "namePl": "Dobre tłuszcze",
         "strength": "excellent"
       },
       {
@@ -912,8 +912,8 @@
         "strength": "good"
       }
     ],
-    "benefits": "Almonds are full of healthy fats that are great for your brain, plus Vitamin E which protects your cells. They're a perfect snack for keeping your energy steady between meals.",
-    "benefitsPl": "Migdały są pełne zdrowych tłuszczów świetnych dla mózgu i witaminy E, która chroni komórki. To idealna przekąska utrzymująca stały poziom energii między posiłkami.",
+    "benefits": "Almonds are full of good fats that feed your brain, plus Vitamin E which protects your cells. They're a perfect snack for keeping your energy steady between meals.",
+    "benefitsPl": "Migdały są pełne dobrych tłuszczów odżywiających mózg i witaminy E, która chroni komórki. To idealna przekąska utrzymująca stały poziom energii między posiłkami.",
     "pairsWith": "Eat with a piece of fruit like an apple or banana — the fibre and fat combo keeps you full longer.",
     "pairsWithPl": "Jedz z kawałkiem owocu, jak jabłko lub banan — połączenie błonnika i tłuszczu utrzymuje sytość na dłużej.",
     "funFact": "Almonds aren't actually nuts — they're seeds from a fruit related to peaches!",
@@ -932,8 +932,8 @@
     "servingSizePl": "połowa średniego awokado",
     "nutrients": [
       {
-        "name": "Healthy Fats",
-        "namePl": "Zdrowe tłuszcze",
+        "name": "Good Fats",
+        "namePl": "Dobre tłuszcze",
         "strength": "excellent"
       },
       {
@@ -952,8 +952,8 @@
         "strength": "good"
       }
     ],
-    "benefits": "Avocados are packed with healthy fats that your brain needs to grow and learn. They're also full of fibre and have more potassium than bananas!",
-    "benefitsPl": "Awokado jest pełne zdrowych tłuszczów, których mózg potrzebuje do rozwoju i nauki. Jest też pełne błonnika i ma więcej potasu niż banany!",
+    "benefits": "Avocados are packed with good fats your brain needs to grow and learn. They're also full of fibre and have more potassium than bananas!",
+    "benefitsPl": "Awokado jest pełne dobrych tłuszczów, których mózg potrzebuje do rozwoju i nauki. Jest też pełne błonnika i ma więcej potasu niż banany!",
     "pairsWith": "Spread on toast with eggs for a breakfast that gives you lasting energy and brain fuel.",
     "pairsWithPl": "Rozsmaruj na toście z jajkami — śniadanie dające długotrwałą energię i paliwo dla mózgu.",
     "funFact": "Avocados are actually berries — and they won't ripen until they're picked from the tree!",
@@ -994,8 +994,8 @@
     ],
     "benefits": "Wholegrain bread gives you slow-release energy to keep you going through the day. The fibre keeps your digestion healthy and the B vitamins help your body turn food into fuel.",
     "benefitsPl": "Chleb pełnoziarnisty daje energię o powolnym uwalnianiu, która utrzymuje się przez cały dzień. Błonnik wspiera trawienie, a witaminy z grupy B pomagają organizmowi zamieniać jedzenie w paliwo.",
-    "pairsWith": "Top with avocado and eggs for a balanced breakfast with healthy fats, protein, and slow carbs.",
-    "pairsWithPl": "Posmaruj awokado i dodaj jajka — zbilansowane śniadanie ze zdrowymi tłuszczami, białkiem i wolnymi węglowodanami.",
+    "pairsWith": "Top with avocado and eggs for a balanced breakfast with good fats, protein, and slow carbs.",
+    "pairsWithPl": "Posmaruj awokado i dodaj jajka — zbilansowane śniadanie ze dobrymi tłuszczami, białkiem i wolnymi węglowodanami.",
     "funFact": "Bread is one of the oldest prepared foods — humans have been baking it for over 14,000 years!",
     "funFactPl": "Chleb to jedno z najstarszych przyrządzanych jedzeni — ludzie pieką go od ponad 14 000 lat!"
   },
@@ -1027,13 +1027,13 @@
         "strength": "good"
       },
       {
-        "name": "Healthy Fats",
-        "namePl": "Zdrowe tłuszcze",
+        "name": "Good Fats",
+        "namePl": "Dobre tłuszcze",
         "strength": "good"
       }
     ],
-    "benefits": "Hummus is made from chickpeas and tahini, giving you a great mix of protein, fibre, and healthy fats. It keeps you feeling full and gives your muscles the building blocks they need.",
-    "benefitsPl": "Hummus jest robiony z ciecierzycy i tahini, co daje świetną mieszankę białka, błonnika i zdrowych tłuszczów. Utrzymuje uczucie sytości i daje mięśniom potrzebne budulce.",
+    "benefits": "Hummus is made from chickpeas and tahini, giving you a great mix of protein, fibre, and good fats. It keeps you feeling full and gives your muscles the building blocks they need.",
+    "benefitsPl": "Hummus jest robiony z ciecierzycy i tahini, co daje świetną mieszankę białka, błonnika i dobrych tłuszczów. Utrzymuje uczucie sytości i daje mięśniom potrzebne budulce.",
     "pairsWith": "Dip carrots and capsicum sticks in it — the Vitamin C from the veggies helps your body absorb the iron from the chickpeas.",
     "pairsWithPl": "Maczaj w nim marchewkę i paprykę — witamina C z warzyw pomaga organizmowi wchłaniać żelazo z ciecierzycy.",
     "funFact": "Hummus is so popular in the Middle East that Lebanon and Israel once competed for the world record for the largest batch!",
@@ -1114,8 +1114,8 @@
     ],
     "benefits": "Nori is the seaweed used to wrap sushi, and it's packed with vitamins and minerals from the ocean. It's especially rich in Vitamin A for healthy eyes and iron for energy.",
     "benefitsPl": "Nori to wodorosty używane do zawijania sushi, pełne witamin i minerałów z oceanu. Są szczególnie bogate w witaminę A dla zdrowych oczu i żelazo na energię.",
-    "pairsWith": "Wrap around rice and avocado for a simple sushi roll — the healthy fats from avocado help your body absorb the vitamins.",
-    "pairsWithPl": "Zawiń w niego ryż i awokado na prosty rulonik sushi — zdrowe tłuszcze z awokado pomagają organizmowi wchłaniać witaminy.",
+    "pairsWith": "Wrap around rice and avocado for a simple sushi roll — the good fats from avocado help your body absorb the vitamins.",
+    "pairsWithPl": "Zawiń w niego ryż i awokado na prosty rulonik sushi — dobre tłuszcze z awokado pomagają organizmowi wchłaniać witaminy.",
     "funFact": "In Japan, nori has been eaten for over 1,300 years — it was once so valuable it was used to pay taxes!",
     "funFactPl": "W Japonii nori jest jedzone od ponad 1300 lat — kiedyś było tak cenne, że używano go do płacenia podatków!"
   },

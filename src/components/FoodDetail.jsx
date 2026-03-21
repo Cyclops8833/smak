@@ -76,12 +76,12 @@ export default function FoodDetail({ food }) {
           <div className="flex items-center justify-between mb-3">
             <Link
               to="/"
-              className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-text-primary transition-colors duration-150"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-surface-sunken border border-border-default text-text-secondary hover:text-text-primary transition-colors duration-200 active:scale-90"
+              aria-label={s.back}
             >
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path d="M13 4L7 10l6 6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
-              {s.back}
             </Link>
             <LanguageToggle />
           </div>
@@ -109,19 +109,19 @@ export default function FoodDetail({ food }) {
             {/* Favourite toggle */}
             <button
               onClick={handleFavourite}
-              className="w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full bg-surface-sunken border border-border-default transition-colors duration-200 active:scale-95"
+              className="w-14 h-14 flex-shrink-0 flex items-center justify-center rounded-full bg-surface-sunken border border-border-default transition-colors duration-200 active:scale-90"
               aria-label={favourited ? 'Remove from favourites' : 'Add to favourites'}
             >
               <span key={heartPopKey} className={heartPopKey > 0 ? 'animate-heart-pop' : ''}>
                 <svg
-                  width="18" height="18" viewBox="0 0 18 18"
+                  width="24" height="24" viewBox="0 0 24 24"
                   fill={favourited ? '#E07A5F' : 'none'}
                   stroke={favourited ? '#E07A5F' : 'currentColor'}
                   strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"
                   className={favourited ? '' : 'text-text-secondary'}
                   aria-hidden="true"
                 >
-                  <path d="M9 15.5s-7-4.5-7-9a4 4 0 0 1 7-2.65A4 4 0 0 1 16 6.5c0 4.5-7 9-7 9z" />
+                  <path d="M12 21s-9-5.8-9-11.5a5 5 0 0 1 9-3A5 5 0 0 1 21 9.5C21 15.2 12 21 12 21z" />
                 </svg>
               </span>
             </button>

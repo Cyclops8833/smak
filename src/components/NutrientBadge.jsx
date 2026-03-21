@@ -17,76 +17,44 @@ const DOTS = {
 export default function NutrientBadge({ name, namePl, strength }) {
   const { lang } = useLanguage()
   const [visible, setVisible] = useState(false)
-  const longPressTimer = useRef(null)
-  const hoverTimer     = useRef(null)
-  const dismissTimer   = useRef(null)
-  const popoverRef     = useRef(null)
-  const wrapperRef     = useRef(null)
-  const caretRef       = useRef(null)
+  const wrapperRef = useRef(null)
+  const popoverRef = useRef(null)
+  const caretRef   = useRef(null)
 
-  const show = () => {
-    clearTimeout(dismissTimer.current)
-    setVisible(true)
-    dismissTimer.current = setTimeout(() => setVisible(false), 4000)
-  }
+  const toggle = () => setVisible(v => !v)
 
-  const hide = () => {
-    clearTimeout(dismissTimer.current)
-    setVisible(false)
-  }
-
-  const onPointerDown = (e) => {
-    if (e.pointerType !== 'mouse') {
-      longPressTimer.current = setTimeout(show, 500)
-    }
-  }
-  const onPointerUp     = () => clearTimeout(longPressTimer.current)
-  const onPointerCancel = () => clearTimeout(longPressTimer.current)
-
-  const onMouseEnter = () => { hoverTimer.current = setTimeout(show, 1000) }
-  const onMouseLeave = () => { clearTimeout(hoverTimer.current); hide() }
-
+  // Outside-tap dismiss (added on next tick so the opening tap isn't caught)
   useEffect(() => {
     if (!visible) return
     const id = setTimeout(() => {
-      const handler = () => setVisible(false)
+      const handler = (e) => {
+        if (wrapperRef.current && !wrapperRef.current.contains(e.target)) {
+          setVisible(false)
+        }
+      }
       document.addEventListener('pointerdown', handler, { once: true })
     }, 0)
     return () => clearTimeout(id)
   }, [visible])
 
-  // Clamp popover to viewport bounds after it renders.
-  // Uses `left` px (not transform) so the CSS animation can't override it.
+  // Clamp popover to viewport — positions with px not transform so the CSS
+  // animation (translateY only) doesn't fight the left offset
   useEffect(() => {
     if (!visible || !popoverRef.current || !wrapperRef.current) return
     const el = popoverRef.current
     const wrapperRect = wrapperRef.current.getBoundingClientRect()
     const popoverWidth = el.offsetWidth
     const pad = 8
-    // Ideal: centre above the badge
     const idealViewportLeft = wrapperRect.left + (wrapperRect.width - popoverWidth) / 2
     const clampedViewportLeft = Math.max(pad, Math.min(idealViewportLeft, window.innerWidth - popoverWidth - pad))
     const localLeft = clampedViewportLeft - wrapperRect.left
     el.style.left = localLeft + 'px'
-    // Point the caret at the badge centre
     if (caretRef.current) {
-      const badgeCentreLocal = wrapperRect.width / 2
-      caretRef.current.style.left = (badgeCentreLocal - localLeft) + 'px'
+      caretRef.current.style.left = (wrapperRect.width / 2 - localLeft) + 'px'
     }
   }, [visible])
 
-  useEffect(() => {
-    return () => {
-      clearTimeout(longPressTimer.current)
-      clearTimeout(hoverTimer.current)
-      clearTimeout(dismissTimer.current)
-    }
-  }, [])
-
-  // Display name: use Polish if in PL mode and namePl is provided
   const displayName = lang === 'pl' ? (namePl || name) : name
-
-  // Popover text: look up by English key, fall back to English if Polish empty
   const entry = NUTRIENT_INFO[name]
   const popoverText = entry
     ? (lang === 'pl' && entry.pl ? entry.pl : entry.en)
@@ -97,26 +65,22 @@ export default function NutrientBadge({ name, namePl, strength }) {
 
   return (
     <div className="relative inline-flex" ref={wrapperRef}>
-      <span
+      <button
+        onClick={toggle}
         className={`
           inline-flex items-center gap-2 px-4 py-2 rounded-xl text-base font-medium
-          select-none cursor-default
+          select-none active:scale-95 transition-transform duration-100
           ${badgeStyle}
         `}
-        onPointerDown={onPointerDown}
-        onPointerUp={onPointerUp}
-        onPointerCancel={onPointerCancel}
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
       >
         {displayName}
         <span className="text-sm" aria-hidden="true">{dots}</span>
-      </span>
+      </button>
 
       {visible && popoverText && (
         <div
           ref={popoverRef}
-          className="absolute z-20 bottom-full bg-surface-elevated border border-border-default rounded-card shadow-lg p-4 max-w-[260px] w-max"
+          className="absolute z-20 bottom-full mb-2 bg-surface-elevated border border-border-default rounded-card shadow-lg p-4 max-w-[260px] w-max"
           style={{ left: 0, animation: 'popoverIn 0.2s ease forwards' }}
         >
           <span

@@ -72,7 +72,7 @@ export default function FilterBar({ active, onChange }) {
         return (
           <button
             key={id}
-            onClick={() => onChange(id)}
+            onClick={() => onChange(isActive && id !== 'all' ? 'all' : id)}
             onPointerDown={() => setPressedId(id)}
             onPointerUp={() => setPressedId(null)}
             onPointerLeave={() => setPressedId(null)}

@@ -83,15 +83,11 @@ export const NUTRIENT_INFO = {
     en: 'Helps turn food into energy and keeps your skin and nerves healthy.',
     pl: 'Pomaga zamieniać jedzenie w energię i utrzymuje zdrową skórę i nerwy.'
   },
-  'Selenium': {
-    en: 'Protects your cells and helps your immune system stay strong.',
-    pl: 'Chroni twoje komórki i pomaga układowi odpornościowemu być silnym.'
-  },
   'Thiamine': {
     en: 'Another name for Vitamin B1 — turns food into energy for your body.',
     pl: 'Inna nazwa witaminy B1 — zamienia jedzenie w energię dla twojego ciała.'
   },
-  'Healthy Fats': {
+  'Good Fats': {
     en: 'Good fats that feed your brain and give you long-lasting energy.',
     pl: 'Dobre tłuszcze, które karmią mózg i dają długotrwałą energię.'
   },

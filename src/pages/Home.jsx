@@ -3,6 +3,7 @@ import SearchBar from '../components/SearchBar'
 import FilterBar from '../components/FilterBar'
 import FoodCard from '../components/FoodCard'
 import LanguageToggle from '../components/LanguageToggle'
+import TodayNutrients from '../components/TodayNutrients'
 import { useFavourites } from '../hooks/useFavourites'
 import { useTheme } from '../hooks/useTheme'
 import { useLanguage } from '../context/LanguageContext'
@@ -123,6 +124,9 @@ export default function Home() {
         />
         <FilterBar active={activeFilter} onChange={setActiveFilter} />
       </div>
+
+      {/* Daily nutrient summary */}
+      <TodayNutrients />
 
       {/* Grid */}
       <div className="px-4 pb-8 mt-3">
