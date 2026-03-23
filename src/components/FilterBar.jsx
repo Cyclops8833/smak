@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 
 const FILTERS = [
@@ -113,6 +114,17 @@ export default function FilterBar({ active, onChange }) {
           </button>
         )
       })}
+
+      {/* Add food button */}
+      <Link
+        to="/admin"
+        className="flex-shrink-0 flex flex-col items-center justify-center px-5 py-3 rounded-xl bg-surface-sunken border border-dashed border-border-strong text-text-secondary active:scale-95 transition-all duration-150"
+      >
+        <span className="font-heading font-semibold text-base leading-tight">+</span>
+        <span className="font-body italic text-sm leading-tight mt-0.5 text-text-tertiary">
+          {lang === 'pl' ? 'Dodaj' : 'Add'}
+        </span>
+      </Link>
     </div>
   )
 }

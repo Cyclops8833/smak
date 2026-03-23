@@ -2,7 +2,15 @@ import { useState, useRef, useEffect } from 'react'
 import { useDailyLog } from '../hooks/useDailyLog'
 import { useLanguage } from '../context/LanguageContext'
 import { NUTRIENT_INFO } from '../data/nutrientInfo'
-import foods from '../data/foods.json'
+import staticFoods from '../data/foods.json'
+import { useCustomFoods } from '../hooks/useCustomFoods'
+
+function isSundayMelbourne() {
+  return new Date().toLocaleDateString('en-AU', {
+    timeZone: 'Australia/Melbourne',
+    weekday: 'long',
+  }) === 'Sunday'
+}
 
 function NutrientPill({ name, namePl, count }) {
   const { lang } = useLanguage()
@@ -75,17 +83,26 @@ function NutrientPill({ name, namePl, count }) {
 }
 
 export default function TodayNutrients() {
-  const { eaten } = useDailyLog()
+  const { weekEaten } = useDailyLog()
+  const { customFoods } = useCustomFoods()
   const { lang } = useLanguage()
 
   const [collapsed, setCollapsed] = useState(() => {
     try { return localStorage.getItem('smak-nutrient-summary-collapsed') === 'true' } catch { return false }
   })
 
-  const eatenFoods = foods.filter(f => eaten.includes(f.id))
-  if (eatenFoods.length === 0) return null
+  // Only show on Sundays
+  if (!isSundayMelbourne()) return null
 
-  // Count each nutrient across all eaten foods
+  // No foods eaten all week — stay hidden
+  if (weekEaten.length === 0) return null
+
+  const staticIds = new Set(staticFoods.map(f => f.id))
+  const allFoods = [...staticFoods, ...customFoods.filter(f => !staticIds.has(f.id))]
+
+  const eatenFoods = allFoods.filter(f => weekEaten.includes(f.id))
+
+  // Count each nutrient across all eaten foods this week
   const counts = {}
   const nameMap = {}
   for (const food of eatenFoods) {
@@ -111,7 +128,7 @@ export default function TodayNutrients() {
     <div className="px-4 pt-3 pb-1">
       <div className="flex items-center justify-between mb-2">
         <p className="font-body text-xs font-medium uppercase tracking-wider text-text-tertiary">
-          {lang === 'pl' ? 'Dzisiejsze składniki' : "Today's nutrients"}
+          {lang === 'pl' ? 'Składniki z tego tygodnia' : "This week's nutrients"}
         </p>
         <button
           onClick={toggleCollapsed}
